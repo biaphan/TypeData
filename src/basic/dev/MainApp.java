@@ -10,7 +10,7 @@ public class MainApp {
 		String cmnd = "191920214" ;
 		String lop = "21CDTH41";
 		String hueic = "Cao đẳng Huế IC";
-		String tb = "10";
+		float tb = 8f ;
 				
 		
 		System.out.println(" Họ và tên " + ten);
@@ -21,10 +21,10 @@ public class MainApp {
 		System.out.println(" Điểm trung bình " + tb);
 		
 		// thông tin công nhân
-		String hoten = "Phan Van Nhat Huy";
+		String hoten = "Phan Van Huy";
 		String diachi = "23 Ly Nam De";
 		String sdt = "0788788975";
-		String hsl = "1 USD" ;
+		float hsl = 10f ;
 		
 		System.out.println(" Họ tên " + hoten);
 		System.out.println(" Địa chỉ " + diachi );
@@ -34,8 +34,8 @@ public class MainApp {
 		// thông tin 1 chiếc xe car
 		String xe = "Audi";
 		String hangxe = "Audi";
-		String gia = "100 USD";
 		String mau = "Hong" ;
+		float gia = 8f ;
 		
 		System.out.println(" Xe " + xe);
 		System.out.println(" Hãng " + hangxe );
